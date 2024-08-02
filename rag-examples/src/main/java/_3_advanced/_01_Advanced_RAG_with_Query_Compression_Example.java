@@ -53,7 +53,8 @@ public class _01_Advanced_RAG_with_Query_Compression_Example {
 
     public static void main(String[] args) {
 
-        Assistant assistant = createAssistant("documents/biography-of-john-doe.txt");
+        //Assistant assistant = createAssistant("documents/biography-of-john-doe.txt");
+        Assistant assistant = createAssistant("documents/FIS_R151700_소프트웨어관리규정.txt");
 
         // First, ask "What is the legacy of John Doe?"
         // Then, ask "When was he born?"
